@@ -1,0 +1,21 @@
+{
+  "name": "fa-backup",
+  "version": "1.0.0",
+  "description": "Backup FA stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node --presets es2015 index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "enquirer": "^2.3.6",
+    "ora": "^6.0.1",
+    "yargs": "^17.3.1"
+  }
+}
